@@ -38,7 +38,7 @@ import {VESDK, Configuration, TintMode} from 'react-native-videoeditorsdk';
 const App: () => React$Node = () => {
   const openEditor = () => {
     // Set up sample video
-    let video = require('./assets/Skater.mp4');
+    let video = require('./assets/video.mp4');
     // Set up configuration
     let configuration: Configuration = {
       // Configure sticker tool
